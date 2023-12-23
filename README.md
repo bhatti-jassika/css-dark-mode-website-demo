@@ -4,4 +4,4 @@ This is a demo presentation of feature enabling and disabling of dark mode in a 
 ### Tech stack
  * Html
  * CSS
- * JS
+ * JQuery
