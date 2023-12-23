@@ -1,0 +1,308 @@
+*
+{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body
+{
+    margin: 0%;
+}
+#header
+{
+    background-color:#266f8f ; 
+    height: 80px;
+}
+#header a
+{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.container
+{
+    height: 100%;
+    width: 90%;
+    margin: auto;
+}
+.nav
+{
+    float: left;
+    width: 80%;
+    text-align: center;
+}
+
+.logo
+{
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+
+.nav li
+{
+    display: inline-block;
+    margin: 14px;
+    font-size: 20px;
+}
+.active
+{
+    background-color: white;
+    border-radius: 6px;
+}
+.active a{
+    color: black !important;
+}
+.nav .bow
+{
+    position: relative;
+}
+.nav .meow
+{
+    position: absolute;
+    background-color:blueviolet;
+    width: 130px;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding-left: 0px;
+    font-size: 0.8em;
+    display: none;
+}
+.meow li{
+    width: 100%;
+    padding: 8px;
+
+}
+.nav .bow:hover>.meow
+{
+    display: block;
+}
+span i
+{
+    color: aliceblue;
+    
+}
+
+.logo img
+{
+    float: left;
+    height: 80%;
+    margin-top: 4%;
+}
+#banner
+{
+    background-image: url(resources/bioluminescence.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 120px;
+
+}
+#banner h1
+{
+    font-size: 50px;
+}
+#banner p
+{
+    font-size: 20px;
+}
+#section3
+{
+    text-align: center;
+    height: 480px;
+    padding-top: 40px;
+    color: grey;
+}
+.ab
+{
+    width: 30%;
+    float: left;
+    margin-right: 3.33%;
+}
+.ab img
+{
+    width: 70px;
+    height: 70px;
+}
+#section3 h1
+{
+    margin-bottom: 50px;
+    color: rgb(116, 210, 223);
+}
+.ab h3
+{
+    color: rgb(116, 210, 223);  
+}
+#project
+{
+    background-color: rgb(240, 230, 230);
+    height: 620px;
+    text-align: center;
+    padding-top: 25px;
+}
+.proj
+{
+    width: 30%;
+    float: left;
+    margin:0% 1.66%;
+    text-align: left;
+}
+.proj img
+{
+    width: 100%;
+    height: 220px;
+}
+#project h1
+{
+    margin-bottom: 40px;
+    color: rgb(96, 192, 139);
+    
+}
+.proj h3
+{
+    color: rgb(96, 192, 139);
+}
+#challenges
+{
+    text-align: center;
+    height: 430px;
+    padding-top: 20px;
+    background-image: url(images.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.chall
+{
+    width: 30%;
+    float: left;
+    margin-right: 3.33%;
+}
+.chall img
+{
+    width: 70px;
+    height: 70px;
+}
+#challenges h1
+{
+    margin-bottom: 50px;
+    color: rgb(96, 192, 139);
+}
+.chall h3
+{
+    color: rgb(96, 192, 139);  
+}
+#contact
+{
+   text-align: center;
+   height: 500px;
+   padding-top: 20px;
+}
+.con
+{
+    width: 20%;
+    float: left;
+    text-align: left;
+    margin:0% 2.5%;
+}
+.con img
+{
+    width: 100%;
+    height: 180px;
+}
+#contact h1{
+    margin-bottom: 40px;
+    color: rgb(96, 192, 139);
+    
+}
+.con h3
+{
+    color: rgb(96, 192, 139);
+}
+#form
+{
+    height: 700px;
+    text-align: center;
+    padding-top: 25px;
+    background-color: rgb(236, 224, 224);
+}
+.for
+{
+    width: 45%;
+    float: left;
+    margin-right: 5%;
+}
+.for img
+{
+    width: 100%;
+    height: 500px; ;
+}
+.fr
+{
+    float: left;
+    text-align: left;
+    width: 50%;
+}
+.fr input,textarea
+{
+    width: 90%;
+    margin-bottom: 12px;
+    padding: 15px 20px;
+    border-radius: 20px;
+    border: 1px solid  rgb(240, 230, 230);
+    background-color: #eaeaea;
+}
+.fr button
+{
+    background-color: #2d7fa1;
+    color: white;
+    padding: 12px 50px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 68%;
+}
+.fr h2
+{
+    margin-top: 5px;
+}
+#form h1
+{
+    margin-bottom: 40px;
+    color: rgb(96, 192, 139);
+}
+#footer
+{
+    background-color: #2d7fa1;
+    height: 300px;
+    color: white;
+    padding-top: 30px;
+    text-align: left;
+}
+.foot
+{
+    width: 20%;
+    float: left;
+    margin: 0% 2.5%;
+
+}
+.foot ul
+{
+    float: left;
+    padding: 0%;
+    list-style-type: none;
+    margin-top: 0%;
+    margin-right: 10px;
+}
+.foot li
+{
+    margin-bottom: 5px;
+}
+.foot img
+{
+    width: 15%;
+    margin-right: 20px;
+}
+
+
+

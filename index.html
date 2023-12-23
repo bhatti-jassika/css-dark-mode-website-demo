@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>index</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    
+    <div id="header" class="cssProj">
+        <div class="container">
+            <div class="logo">
+                
+        <h1><a href="index.html">LOGO</a></h1>
+    </div>
+   
+
+    <div class="nav" class="cssProj">
+        <ul>
+            <li class="active"><a href="index.html">HOME</a></li>
+            <li class="bow"><a href="#">ABOUT</a>
+            <ol class="meow">
+                <li>services1</li>
+                <li>services2</li>
+                <li>services3</li>
+                <li>services4</li>
+            </ol>
+            </li>
+            <li><a href="#">PROJECTS</a></li>
+            <li class="bow"><a href="#">SERVICES</a>
+            <ol class="meow">
+                <li>services1</li>
+                <li>services2</li>
+                <li>services3</li>
+                <li>services4</li>
+            </ol>
+        </li>
+            <li><a href="#">CONTACT</a></li>
+            <span><i class="fa-regular fa-sun"></i></span>
+                <span><i class="fa-solid fa-moon"></i></span>
+
+        </ul>
+    </div>
+    </div>
+    </div>
+    <script src="jquery day 1.js"></script>
+    <script>
+        $(".nav li").click(function(){
+            $(this).addClass("active").siblings("li").removeClass("active")
+        })
+    </script>
+    <script>
+        $(".meow").hide()
+        $("li.bow").click(function(){
+            $(".meow",this).toggle();
+        })
+    </script>
+  <script>
+    $("span .fa-sun").hide();
+    $("span .fa-moon").click(function(){
+    $(this).hide();
+    $("span .fa-sun").show();
+        })
+        $("span .fa-sun").click(function(){
+            $(this).hide();
+            $("span .fa-moon").show();
+        })
+  </script>
+ <script>
+ $("span .fa-moon").click(function(){
+$(".cssProj").css({backgroundColor:"black",color:"white"});
+    })
+    $("span .fa-sun").click(function(){
+        $(".cssProj").css({backgroundColor:"",color:""})
+    })
+   </script>
+  
+
+    <div id="banner">
+        <div class="container">
+            <h1> diversity</h1>bio
+            <p>Biodiversity or biological diversity is the variety and variability of life on Earth. Biodiversity is a measure of variation at the genetic (genetic variability), species (species diversity), and ecosystem (ecosystem diversity) level.</p>
+
+        </div>
+</div>
+
+<div id="section3" class="cssProj">
+    <div class="container">
+         <h1>significance of biodiversity</h1>
+
+         <div class="ab">
+            <img src="resources/harvest.png" alt="">
+            <h3>agriculture</h3>
+            <p>Agricultural diversity can also be divided by whether it is 'planned' diversity or 'associated' diversity. This is a functional classification that we impose and not an intrinsic feature of life or diversity. Planned diversity includes the crops which a farmer has encouraged, planted or raised (e.g. crops, covers, symbionts, and livestock, among others), which can be contrasted with the associated diversity that arrives among the crops, uninvited (e.g. herbivores, weed species and pathogens, among others). </p>
+        </div>
+        <div class="ab">
+            <img src="resources/healthcare.png" alt="">
+            <h3>human health</h3>
+            <p>Biodiversity's relevance to human health is becoming an international political issue, as scientific evidence builds on the global health implications of biodiversity loss.This issue is closely linked with the issue of climate change,[135] as many of the anticipated health risks of climate change are associated with changes in biodiversity e.g. changes in populations and distribution of disease vectors, scarcity of fresh water, impacts on agricultural biodiversity and food resources etc.</p>
+            </div>
+
+            <div class="ab">
+                <img src="resources/management.png" alt="">
+                <h3>ecological services</h3>
+                <p>Biodiversity supports many ecosystem services.It plays a part in regulating the chemistry of our atmosphere and water supply. Biodiversity is directly involved in water purification, recycling nutrients and providing fertile soils. Experiments with controlled environments have shown that humans cannot easily build ecosystems to support human needs.</p>
+                </div>
+            
+
+    </div>
+    
+
+</div>
+
+<div id="project" class="cssProj">
+    <div class="container">
+        <h1>Latest Projects</h1>
+        <div class="proj">
+            <img src="resources/tiger2.jpg" alt="">
+            <h3>Project Tiger</h3>
+            <p>Project Tiger is a tiger conservation programme launched on April 1,1973 by the Government of India during Prime Minister Indira Gandhi's tenure. The project aims at ensuring a viable population of the Bengal tiger in its natural habitats, protecting it from extinction, and preserving areas of biological importance as a natural heritage that represent the diversity of ecosystems across the tiger's range in the country. </p>
+        </div>
+        <div class="proj">
+            <img src="resources/vulture.jpg" alt="">
+            <h3>Project vulture</h3>
+            <p>The Vulture Conservation Breeding Centre (VCBC) is a joint project of the Haryana Forest Department and the Bombay Natural History Society (BNHS). It is a collaborative initiative to save the three species of vultures, the White-backed, Long-billed and Slender-billed, from looming extinction.</p>
+        </div>
+        <div class="proj">
+            <img src="resources/rhino.jpg" alt="">
+            <h3>Project rhino</h3>
+            <p>Project Rhino was launched in 2005 to protect and conserve the rhinos. The Indian Rhino Vision 2020 project aimed to achieve a wild population of at least 3,000 greater one-horned rhinos spread across seven protected areas in the Indian state of Assam by 2020.</p>
+        </div>
+        
+    </div>
+
+</div>
+<div id="challenges" class="cssProj">
+    <div class="container">
+        <h1>challenges of biodiversity</h1>
+        <div class="chall">
+            <img src="resources/climate.png" alt="">
+            <h3>climate change</h3>
+            <p>There are strong complementarities between climate and biodiversity. Both are caused by human activities and reciprocally drive each other. Climate change has significant effects on the erosion of biodiversity, particularly through physical consequences such as droughts, rising water levels, floods, heat waves, etc.</p>
+         </div>
+         <div class="chall">
+            <img src="resources/pollution.png" alt="">
+            <h3>Pollution</h3>
+            <p> It negatively affects the ecosystems around the world, disrupting them completely, thus changing the breeding and feeding habits of the species which inhabit the ecosystem.</p>
+            </div>
+            <div class="chall">
+                <img src="resources/deforestation.png" alt="">
+                <h3>deforestation</h3>
+                <p>Tropical rain forests such as Amazon contain a high percentage of world's flora and fauna, yet they are on the verge of decline to human encroachment.</p>
+        </div>
+        </div>
+
+        <div id="contact" class="cssProj">
+            <div class="container">
+                <h1>our contacts</h1>
+                <div class="con">
+                    <img src="resources/tiger.jpg" alt="">
+                    <h3>Tiger</h3>
+                    <p>he is our very wild and angry contact . he eats flesh only and our brain.  </p>
+                </div>
+                <div class="con">
+                    <img src="resources/jerry.jpg" alt="">
+                    <h3>jerry</h3>
+                    <p>he is our very cute and crazy contact. he eats lots of cheese but still he is very slim bcoz he run all day.</p>
+                    </div>
+
+                    <div class="con">
+                <img src="resources/Untitled.png" alt="">
+                <h3>panda</h3>
+                 <p>he is our very cute and lazy contact . he eats our brain and play all day.  </p>
+                 </div>
+
+                 <div class="con">
+                 <img src="resources/rhino.jpg" alt="">
+                 <h3>rhino</h3>
+                <p>he is our very fatty and crazy contact. he eats lots of grass and stays in water all day.</p>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div id="form" class="cssProj">
+            <div class="container">
+                <h1>contact us</h1>
+                <div class="for">
+                    <img src="resources/dog.png" alt="">
+                </div>
+                <div class="fr">
+                    <h2>Drop us a Message</h2>
+                    <form action="#" target="_blank" method="post">
+                        <input type="text" placeholder="enter your name" required minlength="3"><br><br>
+                        <input type="email" placeholder="enter your email" required><br><br>
+                        <input type="tel" placeholder="enter your phone no." required maxlength="10"><br><br>
+                        <textarea placeholder="enter your message" rows="6"></textarea><br><br>
+                        <button>SEND</button>
+                        </form>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="footer" class="cssProj">
+            <div class="container">
+                <div class="foot">
+                    <h3>We Care</h3>
+                    <p>building a beautiful and healthy environment for our animals</p>
+                </div>
+                <div class="foot">
+                    <h3>Contact Us</h3>
+                    <P>9988080232</P>
+                    <p>9779243632</p>
+                    <p>7889270173</p>
+                    <p>7889041959</p>
+                </div>
+                <div class="foot">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li>Monday</li>
+                        <li>Tuesday</li>
+                        <li>Wednesday</li>
+                        <li>Thursday</li>
+                        <li>Friday</li>
+                        <li>Saturday</li>
+                    </ul>
+                    <ul>
+                        <li>10:00AM - 5:00PM</li>
+                        <li>10:00AM - 5:00PM</li>
+                        <li>10:00AM - 5:00PM</li>
+                        <li>10:00AM - 5:00PM</li>
+                        <li>10:00AM - 5:00PM</li>
+                        <li>10:00AM - 4:00PM</li>
+                    </ul>
+                </div>
+                <div class="foot">
+                    <h3>Social</h3>
+                    <img src="resources/facebook(1).png" alt="">
+                    <img src="resources/twitter.png" alt="">
+                    <img src="resources/instagram.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+    
+</body>
+</html>
